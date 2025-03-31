@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search">
+        <h1 class="title">Movie Explorer</h1>
+        <input type="text" id="search" placeholder="Search for a movie...">
+        <button onclick="searchMovies()">Search</button>
+    </div>
+    
+
+
+    <div id="movies"></div>
+    
+    <div id="movie-details">
+        <button onclick="goBack()">Back</button>
+        <h2 id="title"></h2>
+        <img id="poster" src="" alt="Movie Poster">
+        <p id="info"></p>
+        <button onclick="toggleFavorite()" id="favorite-btn">Add to Favorites</button>
+    </div>
+
+    <div id="favoritesSection">
+        <h2 class="title">Favorites</h2>
+        <div id="favorites"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

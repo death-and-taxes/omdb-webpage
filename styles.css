@@ -1,0 +1,64 @@
+:root{
+    --border: 1px solid grey;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.title{
+    text-align: center;
+}
+
+.search{
+    align-items: center;
+    text-align: center;
+    padding: .5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+
+}
+#movies, #favorites {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5%;
+    margin-top: 1%;
+    text-align: center;
+    
+    
+}
+
+.movie {
+
+    border: var(--border);
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    text-wrap: wrap;
+    height: 60%;
+    width: 25%;
+   
+    
+
+}
+
+.movie img {
+    width: 60%;
+    height: 90%;
+
+}
+
+
+#movie-details {
+    border: var(--border);
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    display: none;
+
+}
+
+#favorites {
+    text-align: center;
+}
