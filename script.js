@@ -9,7 +9,7 @@
 //const { response } = require("express");
 
 // TODO: Replace this with your own API key from https://www.omdbapi.com/
-const API_KEY = '';
+const API_KEY = 'b7ca1ca0';
 
 // TODO: These are the main DOM elements we'll be working with
 const moviesDiv = document.getElementById('movies');
